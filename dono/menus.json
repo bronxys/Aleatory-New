@@ -1,0 +1,268 @@
+{
+  "adms": [
+    {
+      "cmd": "ban",
+      "info": "Este comando é utilizado para remover usuários do grupo, se você é adm e não gosta de alguém e ele cometeu algum erro, você pode marcar o @dele ou marcar a mensagem dele com o comando ban"
+    },
+    {
+      "cmd": "delete",
+      "info": "Comando usado para apagar a mensagem do bot ou de algum usuário de fórma geral, irei apagar a mensagem de qualquer membro do grupo se algum administrador marcar com o comando delete ou d que é a fórma diminuitiva."
+    },
+    {
+      "cmd": "listanegra",
+      "info": "Este comando é para poder remover usuários que saiu e pensa em voltar para perturbar o grupo, ou se você não quer que esse usuário entre no seu grupo de jeito nenhum, você já vai usando o comando\n\n#prefixo#listanegra +55 81 9892-3688\n\nO número que coloquei foi um exemplo, para mostrar como você deve fazer, lembre que não pode colocar o número do usuário diferente do número do whatsapp, porque senão eu não conseguirei remover ele quando ele entrar no grupo\n\nQuiser ver a lista de usuarios que não são permitido entrar nesse grupo, use o comando: #prefixo#listanegrarm"
+    },
+    {
+      "cmd": "limitec",
+      "info": "Este comando é composto por 2 ações\n\nPrimeiro, se você quer ativar o limitec, ele é exatamente um limitador de caracteres no WhatsApp..\n\nComo assim? O limitec ele verifica quantas letras tem em um texto enviado pelo um usuário, e remove e apaga a mensagem do usuário se for maior que a quantidade determinada pelo administrador do grupo, para ativar, irei usar o exemplo de 600 caracteres.\n\n#prefixo#limitec 600\n\nEntão se um textinho enviado por um usuário tiver 600 caracteres irei remover ele..\n\n\"A mas não quero mais esse comando, como posso desligar?\"\n\nEntão, para desligar é só usar o comando\n\n#prefixo#limitec off\n\nBoa sorte."
+    },
+    {
+      "cmd": "bloquear",
+      "info": "Este comando serve para bloquear usuários de usar todos os comandos do bot no grupo que ele foi bloqueado, por exemplo, se você bloquear um usuário\n\n#prefixo#bloquear @marca o número dele ou marcar a mensagem dele com o comando #prefixo#bloquear ele não conseguirá usar nenhum comando do bot no grupo, então o comando serve basicamente para isso..\n\nAgora se você quer desbloquear, só fazer o mesmo com o comando #desbloquear marca o @dele ou marca a mensagem dele com o comando, boa sorte."
+    },
+    {
+      "cmd": "promover",
+      "info": "Este comando serve para você promover algum usuário do grupo para administrador, exemplo:\n\n#prefixo#promover @dele ou marque a mensagem dele com o comando, apenas..\n\nAgora se você quer rebaixar o usuário para membro comum novamente, você pode usar o comando\n\n#prefixo#rebaixar e marca o @dele ou marca a mensagem dele com o comando #prefixo#rebaixar\n\nBoa sorte."
+    },
+    {
+      "cmd": "fechargp",
+      "info": "Este comando é composto por 2:\n\n#prefixo#fechargp\n\n#prefixo#abrirgp\n\nO comando fechargp, ele vai fechar o grupo, já o abrirgp, ele vai abrir o grupo, você precisa ser administrador, o bot também.\n\nBoa sorte."
+    },
+    {
+      "cmd": "bloquearcmd",
+      "info": "Este comando é composto por 2:\n\n#prefixo#bloquearcmd\n\n#prefixo#desbloquearcmd\n\nO comando bloquearcmd, ele serve para bloquear algum comando do bot que você não quer no seu grupo, por exemplo, você não quer que ninguém do grupo use o comando play, você vai fazer o seguinte:\n\n#prefixo#bloquearcmd play\n\nE ninguém vai conseguir usar sem ser dono do bot ou administrador do grupo.\n\nAgora se você quer desbloquear para todos utilizar, apenas use #prefixo#desbloquearcmd play\n\nBoa sorte."
+    },
+    {
+      "cmd": "inativos",
+      "info": "Este comando é composto por 3 comandos principais:\n\n#prefixo#inativos\n\n#prefixo#baninativos\n\n#prefixo#rankativos\n\nO inativos, você usa da seguinte maneira, por exemplo:\n\n#prefixo#inativos 2\n\nNesse exemplo, ele vai mostrar todas as pessoas do grupo, que mandou 2 mensagens ou menos..\n\nJá o comando #baninativos\n\nVocê tem que tomar cuidado, pois ele removerá todos aqueles que tem a quantidade de mensagem que você determinar, ou menos, ele removerá do grupo.\n\nExemplo: #prefixo#baninativos 0\n\nNesse exemplo, ele removerá todas as pessoas que 0 mensagens, que no caso que nunca mandou mensagem no grupo enquanto o bot estava ativo.\n\nJá o comando #prefixo#rankativos\n\nEle mostrará 10 membros do grupo com mais mensagens, ou se tiver menos de 10 membros no grupo, ele mostrará a quantidade de membros que tiver.\n\nBoa sorte."
+    },
+    {
+      "cmd": "marcar",
+      "info": "Este comando é usado para marcar todos usuários do grupo, sem mostrar a marcação com @\n\nExemplo: #prefixo#marcar Olá a todos.\n\nEste exemplo, o bor enviará a mensagem \"Olá a todos\", e nessa mensagem, aparecerá para todos como se fosse uma marcação, estilo @numero\n\nEntão é isso, boa sorte.."
+    },
+    {
+      "cmd": "antipalavra",
+      "info": "Este comando é composto por 3 comandos contando com esse:\n\n#prefixo#antipalavra\n\n#prefixo#addpalavra\n\n#prefixo#rmpalavra\n\nO antipalavra é ativado para o resto da funcionalidade.\n\nPor exemplo, você quer proibir que a palavra \"seu gay\" seja proibido de falar no seu grupo, você vai usar o comando como exemplo:\n\n#prefixo#addpalavra seu gay\n\nEntão qualquer pessoa que falar a frase \"seu gay\" sem ser administrador ou dono do bot, será removido do grupo e a frase será apagada.\n\nJá se você quer liberar, para a frase não ser mais proibida no grupo, você usa\n\n#prefixo#rmpalavra seu gay\n\nEntão é isso, boa sorte."
+    },
+    {
+      "cmd": "limitarcomando",
+      "info": "Este comando é composto por 2:\n\n1: #prefixo#tempocmd\n\n2: #prefixo#limitarcomando\n\nApós ativar o #prefixo#limitarcomando qualquer usuário sem ser adm, vip ou dono usar algum comando, só poderá ser executado depois de 1 minuto, se quiser aumentar o tempo ou diminuir, use:\n\n#prefixo#tempocmd 120\n\ncoloquei 120 = 2 minutos de tempo, se colocar 20, será igual a 20 segundos por comando, então boa sorte no que quiser colocar, lembrando que tem 1 minuto por padrão após ativar."
+    }
+  ],
+  "donos": [
+    {
+      "cmd": "reiniciar",
+      "info": "Exemplo: #prefixo#reiniciar / Vai servir para reiniciar o bot sem precisar ficar dando CTRL + C ou algo do tipo, bem util, e evita Loops de reconexão na maquina / terminal.."
+    },
+    {
+      "cmd": "addvipglobal",
+      "info": "Este comando, é composto por 3:\n\n#prefixo#addvipglobal\n#prefixo#rmvipglobal\n#prefixo#listavipglobal\n\nO comando addvipglobal serve para você adicionar um usuario vip em todos os grupos que ele estiver, para ele utilizar os comandos que você determinou ser vip, Exemplo: #prefixo#addvipglobal @marca o numero dele no grupo, ou você marca a mensagem dele com o comando: #prefixo#addvip e depois do comando, coloque uma | e a data que vai vencer, mas ae é com você, porque será mostrado na listavipglobal, o vencimento, não é algo automatico mas sim algo de visibilidade apenas.\nAgora se você quer remover o vip dele, use: #prefixo#rmvipglobal @dele ou marque a mensagem com o comando, ou o numero dele tipo: #prefixo#rmvip +55 81 9892-3688\nPode remover o vip através do privado do bot se quiser.\nBoa sorte."
+    },
+    {
+      "cmd": "rmvipglobal",
+      "info": "Marca o @dele ou a mensagem ou o numero, tipo: +55 81 9892-3688"
+    },
+    {
+      "cmd": "addcmdvip",
+      "info": "Este comando é composto por 3:\n\n#prefixo#addcmdvip\n#prefixo#rmcmdvip\n#prefixo#comandosvip\n\nO comando addcmdvip serve para adicionar comandos do bot, para apenas usuarios vip utilizar, Exemplo: #prefixo#addcmdvip play\nAe neste exemplo, eu passei o comando play, para apenas usuarios vip utilizar, lembre que esses comandos vip, será vip em todos os grupos, já para tirar o comando do vip, use: #prefixo#rmcmdvip play\nCaso queira ver a lista de comandos vip, use: #prefixo#comandosvip\nBoa sorte."
+    },
+    {
+      "cmd": "addmenu",
+      "info": "Este comando é composto por 3 comandos:\n\n#prefixo#addmenu\n#prefixo#rmmenu\n#prefixo#rmctmenu\n\nO comando addmenu ele se usa da seguinte fórma: #prefixo#addmenu adms|nomedocomando|Informação do comando\n\nEstou explicando ae como adicionar um comando ao menu, a categoria adms, é onde vai o comando que quero, mas as categorias existentes, ( são: adms, donos, membros, informações ), se for usar um nome no lugar de adms e não for uma categoria existente, ele criará uma nova categoria no menu, mas caso você adicionar uma categoria sem querer, tipo uma igual adms, use #prefixo#rmctmenu nomedacategoria\n\nAgora se você quer remover um comando do menu, use: #prefixo#rmmenu nomedacategoria|nomedocomando\n\nUm exemplo real: #prefixo#rmmenu membros|play\n\nEste ultimo exemplo, mostro como remover o comando play do menu, boa sorte."
+    },
+    {
+      "cmd": "acess",
+      "info": "Este comando, ele é utilizado para acesso rapido, sem precisar acessar o painel ou terminal que o bot sw encontra, usando #prefixo#acess ls\nEle mostrará os arquivos listados na pasta do bot, este comando da pra ser usado pra apagar arquivos tambem\nExemplo: #prefixo#acess rm -rf nomedapasta\nExemplo2: #prefixo#acess rm nomedoarquivo.js\nServe para diversas funcionalides, cuidado para não apagar os arquivoa do seu bot, senão depois vai ter que refazer tudo."
+    },
+    {
+      "cmd": "listanegragb",
+      "info": "Comando #prefixo#listanegragb\nEste comando é usado para privar algum usuario de acessar algum grupo que eu se encontrar, por Exemplo: #prefixo#listanegragb +55 81 9892-3688\nComo exemplo adicionei este usuario a listanegragb, então qualquer grupo que eu estiver, e este usuario entrar, eu irei remover ele\n\nQuiser ver a lista de usuarios que não são permitido em grupos que eu estiver, use o comando #prefixo#listanegragbrm"
+    },
+    {
+      "cmd": "antipvig",
+      "info": "Este comando você usa da seguinte maneira, você usando #prefixo#antipvig ele a primeira vez, ele ativa, usando novamente, ele desativa.\n\nEntão, este comando ele serve para ignorar qualquer comando dado no privado, se o usuario não for premium, nem dono.\n o antipvmsg ele manda mensagem, veja o info dele."
+    },
+    {
+      "cmd": "antipvmsg",
+      "info": "Usando o comando #prefixo#antipvmsg primeira vez, ele ativa, usando novamente ele desativa, este comando ele mandará a mensagem que está anotada no arquivo textos.js que se encontra dentro da pasta dono do bot, da uma explorada lá caso você for um curioso, ele mandará a mensagem apenas uma vez, se o bot reiniciar, ele mandará novamente, mas ele ignorará qualquer comando dado, então boa sorte.."
+    },
+    {
+      "cmd": "gerarnovoqr",
+      "info": "Este comando criei com o intuito de pessoas que estão com problema no whatsapp e quer trocar o qrcode do bot, para ler um novo, então usando o comando #prefixo#gerarnovoqr eu irei apagar o qrcode atual e gerar um novo para você realizar a leitura em um novo whatsapp, leia lá em seu painel ou terminal, Boa sorte."
+    },
+    {
+      "cmd": "bemvindo",
+      "info": "Ativando este comando: #prefixo#bemvindo, ele enviará a foto do usuario + o texto que você determinar, usando o comando: #prefixo#txtbv\nPor exemplo: #prefixo#txtbv Olá #numerodele# Bem vindo ao grupo: #nomegp#\n\nUsando as definições #nomegp# e #numerodele# puxará automaticamente o nome do grupo, e numero do usuario marcando ele, Boa sorte."
+    },
+    {
+      "cmd": "bemvindo2",
+      "info": "Ativando este comando: #prefixo#bemvindo2, ele enviará o texto que você determinar, usando o comando: #prefixo#txtbv2\nPor exemplo: #prefixo#txtbv2 Olá #numerodele# Bem vindo ao grupo: #nomegp#\n\nUsando as definições #nomegp# e #numerodele# puxará automaticamente o nome do grupo, e numero do usuario marcando ele, Boa sorte."
+    },
+    {
+      "cmd": "blockbot",
+      "info": "O Comando #prefixo#blockbot é usado para parar totalmente o bot em todos os grupos, e nada funcionar, apenas o dono pode executar comandos, mas nada funcionará, nem antilink, nem antifake, nada.. Absolutamente nada.. Use caso algum dia for necessário.\n\nBoa sorte."
+    },
+    {
+      "cmd": "listagp",
+      "info": "O comando #prefixo#listagp é usado para verificar quantos grupos o bot se encontram, também para pegar os ID, Boa sorte."
+    },
+    {
+      "cmd": "addvip",
+      "info": "Comandos:\n\n#prefixo#addvip\n\n#prefixo#rmvip\n\n#prefixo#listavip\n\nPara adicionar alguém na lista vip, use o comando: #prefixo#addvip\n\nmas contém 2 fórma.\n\n#prefixo#addvip @marca número da pessoa que tá no grupo/1h\n\nou então\n\n#prefixo#addvip /1h\n\n1h usei como exemplo, mas você pode usa 1d ou 30d ou 50h\n\ndias ou horas, e ele vai contar do momento que registrou até acabar, quando acabar o Vip do usuário, ele vai ser tirado da lista vip e você vai receber um aviso falando que o Vip do usuário X venceu.\n\ncaso queira remover o usuário da lista vip antes do tempo, só usar #prefixo#rmvip marcando o @numero no grupo, ou marcando a mensagem dele com #prefixo#rmvip\n\ne para ver o tempo de vencimento e quem tá na lista vip, use o comando: #prefixo#listavip\n\n\nLembrem-se que para adicionar comandos como vip use o comando: #prefixo#info addcmdvip para ver como fazer isso.\n\nBoa sorte."
+    }
+  ],
+  "membros": [
+    {
+      "cmd": "twitter",
+      "info": "Exemplo: #prefixo#twitter link da imagem/audio ou vídeo do Twitter / Boa sorte."
+    },
+    {
+      "cmd": "sticker",
+      "info": "Exemplo: #prefixo#sticker e marque uma imagem ou um vídeo curto de até 10 segundos, para eu transformar em figurinha."
+    },
+    {
+      "cmd": "tiktok",
+      "info": "Exemplo: #prefixo#tiktok link do tiktok, mas lembre que só serve link do tiktok."
+    },
+    {
+      "cmd": "signo",
+      "info": "Exemplo: #prefixo#signo virgem / ele vai entregar informações do seu signo, e dia a dia.."
+    },
+    {
+      "cmd": "toimg",
+      "info": "Exemplo: #prefixo#toimg e marque uma figurinha que não se movimenta, para ela ser convertida em imagem."
+    },
+    {
+      "cmd": "attp",
+      "info": "Exemplo: #prefixo#attp e escreva uma frase, e a frase será enviada em figurinha, e com efeito de pisca pisca."
+    },
+    {
+      "cmd": "gerarnick",
+      "info": "O comando: #prefixo#gerarnick serve para criar nomes de acordo com o que você digitar, e ele entregará o texto personalizado, você escolhe qual achar mais bonito, para seu nick ou algo do tipo, Exemplo: #prefixo#gerarnick Aleatory"
+    },
+    {
+      "cmd": "celular",
+      "info": "Este comando: #prefixo#celular Serve para informar o usuario o processador, memoria, e informações sobre o aparelho que deseja comprar ou apenas se informar mais sobre ele, utilizarei um exemplo: #prefixo#celular Galaxy a9 2018\nBoa sorte."
+    },
+    {
+      "cmd": "rankativos",
+      "info": "Usando o comando #prefixo#rankativos\n- Mostra os 10 mais ativos do grupo\nMas caso não tenha 10 Usuarios registrados / no grupo, Mostrará a quantidade de membros que contém se for menos de 10\n\nSe deseja ver a atividade de apenas um usuário, marque a mensagem dele ou @dele com #prefixo#checkativo\nExemplo: #prefixo#checkativo @numerodele"
+    },
+    {
+      "cmd": "facebook",
+      "info": "Este comando baixa vídeos do Facebook, você pega o link lá, que não seja privado, e usa o comando com o link, exemplo:\n\n#prefixo#facebook Facebook.com/XXXXX\n\nEste comando que mostrei, foi apenas um exemplo!!\n\nBoa sorte."
+    },
+    {
+      "cmd": "play",
+      "info": "Este comando baixa áudio pelo link do YouTube ou pelo nome da música que você colocar\n\nExemplos:\n\n#prefixo#play Sad\n\nAe ele vai enviar uma música do YouTube que tenha o título incluso \"sad\"\n\nJá se você tem o link da música, só usar\n\n#prefixo#play o Link da música..."
+    },
+    {
+      "cmd": "playmp4",
+      "info": "Este comando baixa video pelo link do YouTube ou pelo nome\n\nExemplos:\n\n#prefixo#playmp4 Sad\n\nAe ele vai enviar um video do YouTube que tenha o título incluso \"sad\"\n\nJá se você tem o link do vídeo só usar\n\n#prefixo#playmp4 o Link do video"
+    },
+    {
+      "cmd": "moedas",
+      "info": "Comando usado para informar a todos sobre valores, do\n\n- Dolar / - Euro / - IBOVESPA / - Valor da grama do Ouro / - Libra / - Bitcoin / - Ethereum"
+    },
+    {
+      "cmd": "roubar",
+      "info": "Comando usado para mudar a descrição de uma figurinha, só marque alguma figurinha que deseja mudar a descrição, com o comando roubar. \n\nExemplo: #prefixo#roubar Aleatory/Conteúdos\n\nEste exemplo eu determino a primeira legenda com o nome Aleatory e coloquei uma / para dividir, e o Conteúdos para ficar na outra parte...\n\nÉ obrigatório ter a /\n\nBoa sorte."
+    },
+    {
+      "cmd": "ytsearch",
+      "info": "Este comando: #prefixo#ytsearch serve para pesquisar videos do youtube, e ele mostrará os links relacionado ao titulo que você pesquisar, por exemplo: #prefixo#ytsearch Sad\nEle mostrará todos links do youtube relacionado ao titulo: Sad\nBoa sorte."
+    },
+    {
+      "cmd": "instagram",
+      "info": "Este comando serve para baixar vídeos do Instagram, por exemplo: #prefixo#instagram Link do Instagram aqui.\n\nEm caso de erros, verifique se a conta não é privada, ou pode ser problema no link mesmo."
+    },
+    {
+      "cmd": "emoji",
+      "info": "Exemplo: #prefixo#emoji 🥺/whatsapp\nou\n#prefixo#emoji 🥺\n\nmas a opção /whatsapp vai vim como padrão se não for colocado, é fórmas diferentes que irei por a baixo, são formatos de emoji diferentes.\n\nLista:\n\n/apple\n\n/google\n\n/samsung\n\n/microsoft\n\n/whatsapp\n\n/twitter\n\n/facebook\n\n/joypixels\n\n/openmoji\n\n/emojidex\n\n/lg\n\n/htc\n\nBoa sorte."
+    },
+    {
+      "cmd": "emojimix",
+      "info": "Este comando é para junção de emoji, e ele entrega um resultado diferente, por exemplo: #prefixo#emojimix 😇+🤡\n\nae ele vai entregar o palhaço com a coroa de anjo.. então você vai tentando ver os emojis diferentes que você quiser, mas só funciona com emojis de cara, não mãos e etc..\n\nBoa sorte."
+    },
+    {
+      "cmd": "esporte-noticias",
+      "info": "Este comando eu criei com o intuito de trazer notícias recente do dia a dia do mundo esportivo ( Futebol ) & Bom demais pra quem curte ficar por dentro das notícias, só usar o comando #prefixo#esporte-noticias\n\nele vai vim noticias aleatórias do dia que foi publicadas, do mundo do futebol 🙂, Boa sorte."
+    },
+    {
+      "cmd": "logos",
+      "info": "Este comando contém mais de 70 imagens com efeitos, você usará por exemplo:\n\n#prefixo#logos Aleatory\n\ne será mostrado todas opções disponíveis, de logos.. \n\nBoa sorte.."
+    }
+  ],
+  "informações": [
+    {
+      "cmd": "git",
+      "info": "Comando para eu informar minha github para instalação do Aleatory New."
+    },
+    {
+      "cmd": "status",
+      "info": "Este comando informará quais comandos estão Desativado ou Ativado, Boa sorte."
+    }
+  ],
+  "brincadeiras": [
+    {
+      "cmd": "casal",
+      "info": "Como usar o comando casal?\n\nentão, você pode usar assim:\n\n!casal @usuario1\n\no @ de quem quiser, e vai ser procurado um par pra ele, já se você usar:\n\n#prefixo#casal @usuario1 @usuario2 ele vai calcular a porcentagem dos 2 se relacionar..\n\njá se você digitar apenas #prefixo#casal ele vai pegar 2 pessoa aleatória e formar casal e entregar a porcentagem de certeza sobre a relação dos 2 👌😌"
+    },
+    {
+      "cmd": "perfil",
+      "info": "Comando: #prefixo#perfil usado apenas pra zoar mesmo, lá mostrarei as informações de quantas mensagens tem, e porcentagens aleatórias, tipo se é bonito, corno, gado, e etc..\n\nBoa sorte."
+    }
+  ],
+  "pesquisas": [
+    {
+      "cmd": "playstore",
+      "info": "Este comando ele serve para pesquisar aplicativos da play store, pra saber a disponibilidade e links de fórmas mais direta, por exemplo: #prefixo#playstore pubg mobile\n\nEle vai entregar os resultados referentes ao nome do jogo que pesquisei.\n\nBoa sorte!!"
+    },
+    {
+      "cmd": "amazon",
+      "info": "Comando utilizado para pesquisa de valores na loja virtual \"Amazon\", por exemplo, podes pesquisar a procura um celular barato: \n\n#prefixo#amazon Celular A14\n\npode pesquisar o que quiser, vibrador, caneta, brinco, é isso..\n\nBoa sorte!!"
+    }
+  ],
+  "ativações do grupo": [
+    {
+      "cmd": "anti_estrangeiro",
+      "info": "Este comando é formado por 3 comandos.\n\n#prefixo#anti_estrangeiro\n\n#prefixo#addddi\n\n#prefixo#rmddi\n\nO addddi é pra adicionar o ddi que é permitido no grupo, por exemplo, o seu número se for brasileiro, tem um +55 na frente, então esse 55 é o ddi, que identifica o seu país, então com o adddi você permite quais ddi pode participar do seu grupo.\n\nExemplo: #prefixo#addddi 55\n\nJá pra não permitir mais entrar é\n\n#prefixo#rmddi 55\n\nE pra ativar a remoção use\n\n#prefixo#anti_estrangeiro\n\nBoa sorte.."
+    },
+    {
+      "cmd": "antilink",
+      "info": "O comando #prefixo#antilink você deve ativar quando não quiser que membros comum envie qualquer tipo de link no grupo, quem enviar link no grupo sem ser administrador quando este comando tiver ativado, eu irei remover este usuário, e apagar o link que ele enviou.\n\nQuiser saber como pode privar apenas um tipo de link, use o comando antipalavra\n\nQuiser saber sobre, use #prefixo#info antipalavra"
+    },
+    {
+      "cmd": "so_adm",
+      "info": "Este comando #prefixo#so_adm é usado para bloquear o grupo apenas para administradores conseguir utilizar os comandos, nenhum membro comum conseguirá utilizar meus comandos."
+    },
+    {
+      "cmd": "antiimg",
+      "info": "O comando: #prefixo#antiimg \n\nele serve para ativar a função de remover usuários que enviar alguma imagem no grupo, bom para grupos específicos que é proibido o envio de imagem.\n\nApós usar o comando #prefixo#antiimg \n\nele vai ativar, quando usar o comando novamente ele desativará."
+    },
+    {
+      "cmd": "antivideo",
+      "info": "O comando: #prefixo#antivideo\n\nele serve para ativar a função de remover usuários que enviar algum video no grupo, bom para grupos específicos que é proibido o envio de videos.\n\nApós usar o comando #prefixo#antivideo\n\nele vai ativar, quando usar o comando novamente ele desativará."
+    },
+    {
+      "cmd": "antidoc",
+      "info": "O comando: #prefixo#antidoc\n\nele serve para ativar a função de remover usuários que enviar algum documento no grupo, bom para grupos específicos que é proibido o envio de documentos.\n\nApós usar o comando #prefixo#antidoc\n\nele vai ativar, quando usar o comando novamente ele desativará."
+    },
+    {
+      "cmd": "antiloc",
+      "info": "O comando: #prefixo#antiloc\n\nele serve para ativar a função de remover usuários que enviar alguma localização no grupo, bom para grupos específicos que é proibido o envio de localizações.\n\nApós usar o comando #prefixo#antiloc\n\nele vai ativar, quando usar o comando novamente ele desativará."
+    },
+    {
+      "cmd": "anticatalogo",
+      "info": "O comando: #prefixo#anticatalogo\n\nele serve para ativar a função de remover usuários que enviar algum catalogo no grupo, bom para grupos específicos que é proibido o envio de catalogo.\n\nApós usar o comando #prefixo#anticatalogo\n\nele vai ativar, quando usar o comando novamente ele desativará."
+    },
+    {
+      "cmd": "anticontato",
+      "info": "O comando: #prefixo#anticontato\n\nele serve para ativar a função de remover usuários que enviar algum contato/vard no grupo, bom para grupos específicos que é proibido o envio de anticontato.\n\nApós usar o comando #prefixo#anticontato\n\nele vai ativar, quando usar o comando novamente ele desativará."
+    },
+    {
+      "cmd": "antilinkgp",
+      "info": "Este comando: #prefixo#antilinkgp\n\nserve para remover links que são enviados por algum membro do grupo, e remove o membro também.\n\nusando o comando: #prefixo#antilinkgp\n\numa vez, ele será ativado, usando novamente, ele será desativado.\n\nBoa sorte!!"
+    }
+  ]
+}
