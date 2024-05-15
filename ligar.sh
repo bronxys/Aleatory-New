@@ -1,25 +1,32 @@
 #!/bin/bash
 
-# Definindo cores
+# Cores
+RED='\033[0;31m'
 GREEN='\033[0;32m'
+NC='\033[0m' # No Color
 
-# Definindo o fuso horário para o Brasil
-export TZ=America/Sao_Paulo
-
-# Loop infinito
-while true; do
-    echo -e "${GREEN}Reconectando / Iniciando - $(date +'%d/%m/%Y %H:%M:%S')"
-    
-    # Executando o script Node.js
-    node conect.js sim
-    
-    # Verificando o código de saída
-    if [[ $? -eq 0 ]]; then
-        echo -e "${GREEN}Script concluído com sucesso."
-    else
-        echo -e "${GREEN}Houve um erro ao executar o script."
+# Função para verificar se houve erro na execução do Node.js
+check_error() {
+    if [ $? -ne 0 ]; then
+        echo -e "${RED}Reiniciando, aguarde 10+ segundos..${NC}"
+        sleep 10
+        start_server
     fi
-    
-    # Aguardando 1 segundo antes de reiniciar
-    sleep 1
-done
+}
+
+# Função para iniciar o servidor Node.js
+start_server() {
+    node conect.js sim
+    check_error
+}
+
+# Configurando o fuso horário para América/São_Paulo
+export TZ=America/Sao_Paulo
+echo "Horário de América/São_Paulo: $(date +'%d/%m/%Y %H:%M:%S')"
+
+# Mensagem de inicialização
+echo -e "${GREEN}Iniciando seu bot Aleatory New..${NC}"
+
+# Iniciar o servidor Node.js
+start_server
+
