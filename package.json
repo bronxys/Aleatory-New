@@ -3,7 +3,7 @@
 "description": "Meu whatsapp pra contato: 55 81 9892-3680, aceito sugestões.",
 "version": "1.2.0",
 "scripts": {
-"start": "ulimit -c 0 && bash ligar"
+"start": "ulimit -c 0 && bash ligar.sh"
 },
 "dependencies": {
 "axios": "^1.6.8",
